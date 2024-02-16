@@ -1,4 +1,4 @@
-import './Blog.css'
+//import './Blog.css'
 
 const Blog = ({ blog, handleOnView, handleLike, handleDelete, deletable }) =>
 {
