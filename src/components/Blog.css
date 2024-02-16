@@ -1,0 +1,28 @@
+.blogItem {
+  border: 3px solid black;
+  padding: 1px;
+  border-radius: 4px;
+  margin: 3px;
+}
+
+button {
+  padding: 1px;
+  border: 2px solid black; /* Green border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s; /* Smooth transition for hover effects */
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow for depth */
+  margin: 2px;
+}
+
+button:hover {
+  background-color: rgb(128, 128, 128); /* Darker shade of green */
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.5); /* Bigger shadow on hover */
+}
+
+.deleteButton {
+  border: 1px solid red;
+}
