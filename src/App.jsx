@@ -116,7 +116,7 @@ const App = () => {
     <button onClick={handleLogout}>Logout</button>
     <br />
     <h2><b>BLOGS</b></h2>
-    <ul>
+    <ul className='blogList'>
       {blogs.sort((a, b) => b.likes - a.likes).map(blog =><Blog key={blog.id} blog={blog} handleOnView={toggleDetailedView} handleLike={handleLike} handleDelete={handleDelete} deletable={user.username === blog.user.username}/>)}
     </ul>
   </>

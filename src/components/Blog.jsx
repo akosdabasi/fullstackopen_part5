@@ -13,7 +13,7 @@ const Blog = ({ blog, handleOnView, handleLike, handleDelete, deletable }) =>
       {blog.view && 
         <>
         <div>{blog.url}</div>
-        <div>{blog.likes} <button onClick={() => handleLike(blog)}>like</button></div>
+        <div className="likesField">{blog.likes} <button onClick={() => handleLike(blog)}>like</button></div>
         <div>{`added by: ${blog.user.username}`}</div>
         </>
       }
