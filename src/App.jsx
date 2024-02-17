@@ -131,6 +131,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Hello there!</h1>
       <PopUp message={message} className={messageType}/>
       {user === null ? renderLoggedOut() : renderLoggedIn()} 
     </div>
